@@ -1,0 +1,107 @@
+.home {
+    background: linear-gradient(45deg, #303741, #44484e);
+    background-size: 200% 200%;
+    animation: animated-background 10s ease infinite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 200px 50px;
+    padding-bottom: 115px;
+    color: #f6fcfa;
+  }
+  @keyframes animated-background {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  
+  .home-left {
+    text-align: right;
+    flex: 1;
+    padding-right: 2%;
+  }
+  
+  .home-left h1 {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  .home-left h2 {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #05c7ad;
+  }
+  
+  .home-left p {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  .home-right {
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 2%;
+  }
+  
+  .home-right img {
+    max-width: 50%;
+    max-height: 50%;
+  }
+  
+  .my-button {
+    background-color: #05c7ad;
+    color: #f6fcfa;
+    border-radius: 10px;
+    border-style: hidden;
+  
+    transition: background-color 0.3s ease;
+  
+    padding: 10px;
+    font-size: 1em;
+  }
+  .my-button:hover {
+    background-color: #027d6d;
+  }
+  
+  @media (max-width: 900px) {
+    .home {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .home-left {
+      padding: px;
+      margin-bottom: 10px;
+      text-align: center;
+      order: 2;
+    }
+    .home-right {
+      margin-top: 10px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      order: 1;
+    }
+  }
+  
+  @keyframes fade-in {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  .home-left h2 {
+    animation: fade-in 1s ease-in;
+  }
