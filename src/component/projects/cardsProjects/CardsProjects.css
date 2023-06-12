@@ -1,0 +1,40 @@
+.card-project {
+    background-color: #303741;
+    color: #f6fcfa;
+    border-radius: 4px;
+    height: 17em;
+    width: 200px;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    
+  }
+  
+  .card-project-image {
+    width: 10%;
+    height: auto;
+    object-fit: cover;
+  }
+  
+  .card-project-content {
+    margin-top: 10px;
+  }
+  
+  .card-project-title {
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+  
+  .card-project-description {
+    font-size: 14px;
+    margin-bottom: 5px;
+  }
+  
+  .card-project-info {
+    font-size: 12px;
+    
+  }
+  .card-project-link{
+    color: #05c7ad;
+    font-size: x-small;
+  }
