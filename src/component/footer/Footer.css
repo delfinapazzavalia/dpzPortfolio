@@ -1,0 +1,21 @@
+.footer-container {
+    background-color: #303741;
+    padding: 3% 40%;
+    padding-top: 1%;
+    color: #f6fcfa;
+    text-align: center;
+  }
+  .footer-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .social-links a {
+    color: #05c7ad;
+    text-decoration: none;
+    margin-right: 10px;
+  }
+  
+  .social-links a:hover {
+    color: #027D6D;
+  }

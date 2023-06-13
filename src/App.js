@@ -1,6 +1,7 @@
 
 import './App.css';
 import About from './component/about/About';
+import Contact from './component/contact/Contact';
 import Home from './component/home/Home';
 import Projects from './component/projects/Projects';
 import Resume from './component/resume/Resume';
@@ -14,6 +15,7 @@ function App() {
 <Resume/>
 <Projects/>
 <Skills/>
+<Contact/> 
 </>
   );
 }
