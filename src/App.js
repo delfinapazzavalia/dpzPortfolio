@@ -2,6 +2,7 @@
 import './App.css';
 import About from './component/about/About';
 import Contact from './component/contact/Contact';
+import Footer from './component/footer/Footer';
 import Home from './component/home/Home';
 import Projects from './component/projects/Projects';
 import Resume from './component/resume/Resume';
@@ -16,6 +17,7 @@ function App() {
 <Projects/>
 <Skills/>
 <Contact/> 
+<Footer/>
 </>
   );
 }
