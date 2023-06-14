@@ -1,3 +1,4 @@
+
 .home {
     background-color: #22252c;
     background-size: 200% 200%;
@@ -8,6 +9,8 @@
     padding: 200px 50px;
     padding-bottom: 115px;
     color: #f6fcfa;
+
+
   }
 
   
@@ -23,7 +26,7 @@
     font-weight: bold;
     margin-bottom: 10px;
   }
-  .home-left h2 {
+  .home-left .home-welcome {
     font-size: 40px;
     font-weight: bold;
     margin-bottom: 10px;
@@ -56,7 +59,7 @@
     border-style: hidden;
   
     transition: background-color 0.3s ease;
-  
+    font-family: 'Titillium Web', sans-serif;
     padding: 10px;
     font-size: 1em;
   }

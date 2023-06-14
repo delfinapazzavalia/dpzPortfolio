@@ -7,6 +7,8 @@
   padding-bottom: 5%;
   background-color: #22252c;
   color: #f6fcfa;
+
+
 }
 
 .contact-form h2 {
@@ -46,6 +48,7 @@
   background-color: #05c7ad;
   color: #f6fcfa;
   z-index: 2;
+  font-family: 'Titillium Web', sans-serif;
 }
 .contact-form button:hover {
   background-color: #027D6D;

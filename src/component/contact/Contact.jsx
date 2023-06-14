@@ -38,9 +38,9 @@ class Contact extends React.Component {
   render() {
     return (
       <div className="contact-form">
-        <h2>Contacto</h2>
+        <h2>CONTACT ME</h2>
         <form onSubmit={this.handleSubmit}>
-          <label htmlFor="name">Nombre:</label>
+          <label htmlFor="name">Name:</label>
           <input
             type="text"
             id="name"
@@ -58,7 +58,7 @@ class Contact extends React.Component {
             onChange={this.handleInputChange}
           />
 
-          <label htmlFor="message">Mensaje:</label>
+          <label htmlFor="message">Message:</label>
           <textarea
             id="message"
             name="message"
@@ -66,7 +66,7 @@ class Contact extends React.Component {
             onChange={this.handleInputChange}
           ></textarea>
 
-          <button type="submit">Enviar</button>
+          <button type="submit">Submit</button>
         </form>
       </div>
     );

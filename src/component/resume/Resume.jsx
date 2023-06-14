@@ -7,7 +7,7 @@ const Resume = () => {
   return (
     <>
     <div className="resume">
-             <h1>Resume</h1>
+             <h2>RESUME</h2>
       <div className="resume-cards">
         <CardRolling />
         <CardScrum />

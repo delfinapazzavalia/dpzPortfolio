@@ -5,7 +5,7 @@ const About = () => {
   return (
     <>
       <div className="about-me-container">
-        <h1 className="title">About Me</h1>
+        <h2 className="title">ABOUT ME</h2>
         <p className="text">
           Hello! I'm Delfina, <strong>{'<'}FullStack Web Developer{'>'}</strong> located
           in Argentina. A year ago, I delved into this exciting world, and since

@@ -7,10 +7,11 @@ const Navbar = () => {
             <nav className="navbar">
       <div className="navbar-left">DPZ.</div>
       <div className="navbar-right">
-        <a href="/about">about</a>
-        <a href="/studies">resume</a>
-        <a href="/projects">projetcts</a>
-        <a href="/contact">contact</a>
+        <a href="/about">ABOUT ME</a>
+        <a href="/studies">RESUME</a>
+        <a href="/projects">PROJECTS</a>
+        <a href="/projects">SKILLS</a>
+        <a href="/contact">CONTACT ME</a>
       </div>
     </nav>
     </div>

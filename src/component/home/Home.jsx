@@ -8,10 +8,12 @@ const Home = () => {
     <div className="home">
 
       <div className="home-left">
-        <h2>WELCOME!</h2>
-        <h1>I'm Delfina Paz Zavalia</h1>
-        <span>_________</span>
-        <p>FullStack Web Developer</p>
+        <h1 className="home-welcome"><strong> WELCOME! </strong></h1>
+        <h2>I'm Delfina Paz Zavalia</h2>
+        
+        <span>FullStack Web Developer</span>
+        <br />
+        <br />
         <button class="my-button">CONTACT ME</button>
       </div>
       <div className="home-right">
