@@ -4,7 +4,7 @@
   }
   
   .navbar {
-    background-color: #22252cb2;
+    background-color: #1a1d24c5;
     color: #F6FCFA;
     display: flex;
     justify-content: space-between;
@@ -14,6 +14,7 @@
     max-width: 100%;
     box-sizing: border-box;
     position: fixed;
+    z-index: 3;
   }
   
   .navbar-left {

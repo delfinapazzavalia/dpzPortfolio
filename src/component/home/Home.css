@@ -1,5 +1,5 @@
 .home {
-    background: linear-gradient(45deg, #303741, #44484e);
+    background-color: #22252c;
     background-size: 200% 200%;
     animation: animated-background 10s ease infinite;
     display: flex;
@@ -9,22 +9,13 @@
     padding-bottom: 115px;
     color: #f6fcfa;
   }
-  @keyframes animated-background {
-    0% {
-      background-position: 0% 50%;
-    }
-    50% {
-      background-position: 100% 50%;
-    }
-    100% {
-      background-position: 0% 50%;
-    }
-  }
+
   
   .home-left {
     text-align: right;
     flex: 1;
     padding-right: 2%;
+    z-index: 2;
   }
   
   .home-left h1 {
@@ -49,11 +40,13 @@
     display: flex;
     justify-content: flex-start;
     padding-left: 2%;
+    z-index: 2;
   }
   
   .home-right img {
     max-width: 50%;
     max-height: 50%;
+    z-index: 2;
   }
   
   .my-button {

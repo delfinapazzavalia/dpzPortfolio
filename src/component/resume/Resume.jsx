@@ -11,7 +11,7 @@ const Resume = () => {
       <div className="resume-cards">
         <CardRolling />
         <CardScrum />
-        <CardRolling />
+        
       </div>
     </div>
  
