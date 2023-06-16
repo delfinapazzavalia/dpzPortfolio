@@ -7,7 +7,7 @@ const Navbar = () => {
             <nav className="navbar">
       <div className="navbar-left">DPZ.</div>
       <div className="navbar-right">
-        <a href="/about">ABOUT ME</a>
+        <a href="/AboutMe">ABOUT ME</a>
         <a href="/studies">RESUME</a>
         <a href="/projects">PROJECTS</a>
         <a href="/projects">SKILLS</a>

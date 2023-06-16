@@ -7,11 +7,11 @@ const Footer = () => {
       <div className="footer-content">
       <h3 className="footer-title">Get in Touch</h3>
       <div className="social-links">
-        <a href="https://example.com">Twitter</a>
-        <a href="https://example.com">Instagram</a>
-        <a href="https://example.com">LinkedIn</a>
+        <a target="_blank" rel="noopener noreferrer" href="https://github.com/delfinapazzavalia">GitHub</a>
+        
+        <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/delfina-paz-zaval%C3%ADa-9282a31ba/">LinkedIn</a>
       </div>
-        <p>© 2023 Tu Empresa. Todos los derechos reservados.</p>
+        <p>© 2023 Created by Delfina Paz Zavalia.</p>
       </div>
     </footer>
   );
