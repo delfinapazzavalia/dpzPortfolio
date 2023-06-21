@@ -30,6 +30,8 @@
   
   .navbar-right a:hover {
     color: #05c7ad;
+    font-weight: bolder;
+    font-size: large;
   }
 
 /* Media queries para el diseño responsive */
