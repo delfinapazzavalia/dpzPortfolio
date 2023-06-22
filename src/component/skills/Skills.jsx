@@ -11,7 +11,7 @@ import node from '../skills/node.png'
 const Skills = () => {
   return (
     <>
-    <div className='skills'>
+    <div id='Skills' className='skills'>
         <h2 className='skills-title'>SKILLS</h2>
         <div className='skills-icon'>
         <img className='skills-icon-img' src={html} alt="html" />

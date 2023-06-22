@@ -7,7 +7,7 @@ import Gym from './cardsProjects/Gym';
 const Projects = () => {
   return (
     <>
-      <div className='projects'>
+      <div id='Projects' className='projects'>
         <h2>PROJECTS</h2>
         <div className='projects-cards'>
           <Travel />
