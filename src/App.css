@@ -6,3 +6,6 @@ body {
 .App{
   background-color: #22252c;
 }
+html {
+  scroll-behavior: smooth;
+}

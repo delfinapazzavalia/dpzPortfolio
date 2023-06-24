@@ -2,10 +2,16 @@ import React from "react";
 import "../home/Home.css";
 import perfil from "../home/perfildelfi.png"
 
+const handleClick = () => {
+  const seccionElement = document.getElementById('Contact');
+  if (seccionElement) {
+    seccionElement.scrollIntoView({ behavior: 'smooth' });
+  }
+};
 
 const Home = () => {
   return (
-    <div className="home">
+    <div id="Home" className="home">
 
       <div className="home-left">
         <h1 className="home-welcome"><strong> WELCOME! </strong></h1>
@@ -14,7 +20,7 @@ const Home = () => {
         <span>FullStack Web Developer</span>
         <br />
         <br />
-        <button class="my-button">CONTACT ME</button>
+        <button onClick={handleClick} class="my-button">CONTACT ME</button>
       </div>
       <div className="home-right">
         <img src={perfil} alt="Profile" />

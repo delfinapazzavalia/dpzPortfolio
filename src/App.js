@@ -1,6 +1,7 @@
 import "./App.css";
 import ParticlesBackground from "./component/ParticlesBackground";
 import About from "./component/about/About";
+
 import Contact from "./component/contact/Contact";
 import Footer from "./component/footer/Footer";
 import Home from "./component/home/Home";
@@ -23,6 +24,7 @@ function App() {
           <Skills />
           <Contact />
           <Footer />
+     
        
       </div>
     </div>

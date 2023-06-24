@@ -20,6 +20,12 @@
   .navbar-left {
     font-weight: bold;
     font-size: 2em;
+    color:#F6FCFA;
+    text-decoration: none;
+  }
+  .navbar-left:hover {
+    color: #05c7ad;
+    font-weight: bolder;
   }
   
   .navbar-right a {
