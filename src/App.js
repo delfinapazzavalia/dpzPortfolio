@@ -15,17 +15,15 @@ function App() {
     <div className="App">
       <Navbar />
       <div>
-        <ParticlesBackground/>
-          
-          <Home />
-          <About />
-          <Resume />
-          <Projects />
-          <Skills />
-          <Contact />
-          <Footer />
-     
-       
+        <ParticlesBackground />
+
+        <Home />
+        <About />
+        <Resume />
+        <Projects />
+        <Skills />
+        <Contact />
+        <Footer />
       </div>
     </div>
   );
