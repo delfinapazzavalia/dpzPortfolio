@@ -71,6 +71,7 @@
     .home {
       flex-direction: column;
       align-items: center;
+      padding-top: 35%;
     }
   
     .home-left {

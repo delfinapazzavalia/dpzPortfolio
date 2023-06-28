@@ -25,3 +25,14 @@
     text-align: center;
     z-index: 2;
 }
+
+@media (max-width: 768px) {
+
+    .skills{
+      
+      padding-top: 35%;
+    
+  
+  
+  }
+  }

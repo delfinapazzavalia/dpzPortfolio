@@ -29,5 +29,11 @@
     .text {
       font-size: 16px;
     }
+    .about-me-container {
+      padding-top: 35%;
+      padding-left: 2%;
+      padding-right: 2%;
+  
+    }
   }
   
