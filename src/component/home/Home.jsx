@@ -14,7 +14,7 @@ const Home = () => {
     <div id="#Home" className="home">
 
       <div className="home-left">
-        <h1 className="home-welcome"><strong> WELCOME! </strong></h1>
+        <h1 className="home-welcome"><strong> hola! </strong></h1>
         <h2>I'm Delfina Paz Zavalia</h2>
         
         <span>FullStack Web Developer</span>
