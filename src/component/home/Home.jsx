@@ -11,7 +11,7 @@ const handleClick = () => {
 
 const Home = () => {
   return (
-    <div id="Home" className="home">
+    <div id="#Home" className="home">
 
       <div className="home-left">
         <h1 className="home-welcome"><strong> WELCOME! </strong></h1>

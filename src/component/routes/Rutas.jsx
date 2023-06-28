@@ -18,6 +18,7 @@ const Rutas = () => {
       <Route path="#Skills" element={<Skills />} />
       <Route path="#Contact" element={<Contact />} />
       
+      
      
     </Routes>
   );
