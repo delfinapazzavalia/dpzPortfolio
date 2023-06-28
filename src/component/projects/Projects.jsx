@@ -5,7 +5,7 @@ import Movies from './cardsProjects/Movies';
 import Gym from './cardsProjects/Gym';
 
 const Projects = () => {
-  return (
+  return ( 
     <>
       <div id='Projects' className='projects'>
         <h2>PROJECTS</h2>

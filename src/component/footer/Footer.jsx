@@ -3,6 +3,7 @@ import './Footer.css';
 
 const Footer = () => {
   return (
+    <>
     <footer className="footer">
       <div className="footer-content">
       <h3 className="footer-title">Get in Touch</h3>
@@ -14,6 +15,8 @@ const Footer = () => {
         <p>© 2023 Created by Delfina Paz Zavalia.</p>
       </div>
     </footer>
+    </>
+    
   );
 };
 

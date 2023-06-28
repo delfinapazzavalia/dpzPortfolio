@@ -1,5 +1,6 @@
 import React from "react";
-import "../about/About.css"
+import "../about/About.css";
+
 
 const About = () => {
   return (
@@ -7,12 +8,16 @@ const About = () => {
       <div id="AboutMe" className="about-me-container">
         <h2 className="title">ABOUT ME</h2>
         <p className="text">
-          Hello! I'm Delfina, <strong>{'<'}FullStack Web Developer{'>'}</strong> located
-          in Argentina. A year ago, I delved into this exciting world, and since
-          then, I haven't stopped learning and growing. I'm always
+          Hello! I'm Delfina,{" "}
+          <strong>
+            {"<"}FullStack Web Developer{">"}
+          </strong>{" "}
+          located in Argentina. A year ago, I delved into this exciting world,
+          and since then, I haven't stopped learning and growing. I'm always
           seeking new challenges and opportunities for personal and professional
           development.
         </p>
+
       </div>
     </>
   );

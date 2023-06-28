@@ -13,7 +13,7 @@ const Travel = () => {
             Group project to complete the first module of
             the program using agile methodologies for faster and more flexible
             development. We primarily used HTML, CSS,
-            and Bootstrap to design and structure the project
+            and Bootstrap to design and structure the project.
           </p>
           <p className="card-project-info">Rolling Tours</p>
           <a

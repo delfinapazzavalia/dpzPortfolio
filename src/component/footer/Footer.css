@@ -30,5 +30,6 @@ P {
 @media (max-width: 900px) {
   .footer-content {
     max-width: 90%;
+    margin: auto;
   }
 }

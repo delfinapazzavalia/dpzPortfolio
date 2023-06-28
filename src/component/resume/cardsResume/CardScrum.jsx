@@ -14,6 +14,7 @@ const CardScrum = () => {
           <a className="card-link" target="_blank" rel="noopener noreferrer" href="https://media.licdn.com/dms/image/C4D22AQHvO4ZQYJeYww/feedshare-shrink_2048_1536/0/1663194243034?e=1689206400&v=beta&t=jioIr7ZTQHA4emiiy1UXMYiPMpaeE-oJIFVaZ6tNGuE">
           View certificate
           </a>
+          
         </div>
       </div>
     </>
