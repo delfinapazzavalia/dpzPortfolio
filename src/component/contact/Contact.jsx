@@ -10,10 +10,10 @@ const Contact = () => {
 
     emailjs
       .sendForm(
-        "YOUR_SERVICE_ID",
-        "YOUR_TEMPLATE_ID",
+        "service_6bbo2rm",
+        "template_qgbpsju",
         form.current,
-        "YOUR_PUBLIC_KEY"
+        "8k2RGYzRvupJ8MMXl"
       )
       .then(
         (result) => {
@@ -35,7 +35,7 @@ const Contact = () => {
         <input type="email" name="user_email" />
         <label>Message</label>
         <textarea name="message" />
-        <button type="submit">Submit</button>
+        <button type="submit" value="Send">Submit</button>
       </form>
     </div>
   );
