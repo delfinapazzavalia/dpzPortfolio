@@ -9,19 +9,19 @@
 
 }
 .skills-title{
-    z-index: 3;
+    z-index: 2;
 }
 .skills-icon{
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    z-index: 3;
+    z-index: 2;
 }
 .skills-icon-img{
     width: 100px;
     padding: 10px;
     margin: 10px;
     text-align: center;
-    z-index: 3;
+    z-index: 2;
 }
