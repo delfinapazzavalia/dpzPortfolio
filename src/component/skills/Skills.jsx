@@ -7,6 +7,9 @@ import bootstrap from '../skills/bootstrap.png'
 import github from '../skills/github.png'
 import react from '../skills/react.png'
 import node from '../skills/node.png'
+import gitLocal from '../skills/gitLocal.png'
+import mongodb from '../skills/mongodb.png'
+import postman from '../skills/postman.png'
 
 const Skills = () => {
   return (
@@ -21,6 +24,9 @@ const Skills = () => {
         <img className='skills-icon-img' src={node} alt="node" />
         <img className='skills-icon-img' src={bootstrap} alt="bootstrap" />
         <img className='skills-icon-img' src={github} alt="github" />
+        <img className='skills-icon-img' src={gitLocal} alt="gitLocal" />
+        <img className='skills-icon-img' src={mongodb} alt="mongodb" />
+        <img className='skills-icon-img' src={postman} alt="postman" />
         
         </div>
 
