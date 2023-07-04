@@ -2,6 +2,8 @@ import React, { useRef } from "react";
 import "../contact/Contact.css";
 import emailjs from "emailjs-com";
 
+
+
 const Contact = () => {
   const form = useRef();
 
@@ -30,11 +32,11 @@ const Contact = () => {
       <h2>CONTACT ME</h2>
       <form ref={form} onSubmit={sendEmail}>
         <label>Name</label>
-        <input type="text" name="user_name" />
+        <input type="text" name="user_name" required/>
         <label>Email</label>
-        <input type="email" name="user_email" />
+        <input type="email" name="user_email" required/>
         <label>Message</label>
-        <textarea name="message" />
+        <textarea name="message" required/>
         <button type="submit" value="Send">Submit</button>
       </form>
     </div>

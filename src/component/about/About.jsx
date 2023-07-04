@@ -2,6 +2,7 @@ import React from "react";
 import "../about/About.css";
 
 
+
 const About = () => {
   return (
     <>
@@ -17,6 +18,7 @@ const About = () => {
           seeking new challenges and opportunities for personal and professional
           development.
         </p>
+       
 
       </div>
     </>
