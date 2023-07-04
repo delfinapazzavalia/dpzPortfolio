@@ -1,5 +1,5 @@
 import "./App.css";
-
+import ParticlesBackground from "./component/ParticlesBackground";
 import About from "./component/about/About";
 import Contact from "./component/contact/Contact";
 import Footer from "./component/footer/Footer";
@@ -19,8 +19,9 @@ function App() {
       <Projects />
       <Skills />
       <Contact />
-      <Footer />
       
+      <Footer />
+      <ParticlesBackground />
     </div>
   );
 }
