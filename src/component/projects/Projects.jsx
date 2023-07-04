@@ -13,6 +13,7 @@ const Projects = () => {
           <Travel />
           <Movies />
           <Gym />
+          
         </div>
       </div>
     </>

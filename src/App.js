@@ -1,5 +1,5 @@
 import "./App.css";
-import ParticlesBackground from "./component/ParticlesBackground";
+
 import About from "./component/about/About";
 
 import Contact from "./component/contact/Contact";
@@ -13,18 +13,16 @@ import Skills from "./component/skills/Skills";
 
 function App() {
   return (
-    <div className="App">
+    <div>
       <Navbar />
-      <div>
-        <ParticlesBackground />
-        <Home />
-        <About />
-        <Resume />
-        <Projects />
-        <Skills />
-        <Contact />
-      </div>
+      <Home />
+      <About />
+      <Resume />
+      <Projects />
+      <Skills />
+      <Contact />
       <Footer />
+      
     </div>
   );
 }

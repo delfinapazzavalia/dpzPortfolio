@@ -4,12 +4,13 @@ import { loadFull } from "tsparticles";
 import particlesConfig from "./config/particlesConfig";
 import '../component/ParticlesBackground.css'
 
+
 const ParticlesBackground = () => {
   const particlesInit = useCallback((engine) => {
     loadFull(engine);
   }, []);
+
   return (
-    <>
       <div className="particle-background">
         <Particles
           id="tsparticles"
@@ -18,7 +19,6 @@ const ParticlesBackground = () => {
           className="particles"
         />
       </div>
-    </>
   );
 };
 
