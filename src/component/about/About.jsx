@@ -9,7 +9,7 @@ const About = () => {
       <div id="AboutMe" className="about-me-container">
         <h2 className="title">ABOUT ME</h2>
         <p className="text">
-          Hello! I'm Delfina,{" "}
+          Hello! I'm Delfina Paz Zavalia,{" "}
           <strong>
             {"<"}FullStack Web Developer{">"}
           </strong>{" "}
