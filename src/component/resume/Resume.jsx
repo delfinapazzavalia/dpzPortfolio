@@ -2,6 +2,7 @@ import React from "react";
 import "../resume/Resume.css";
 import CardRolling from "../resume/cardsResume/CardRolling";
 import CardScrum from "../resume/cardsResume/CardScrum";
+import CardFigma from "../resume/cardsResume/CardFigma";
 
 const Resume = () => {
   return (
@@ -11,6 +12,7 @@ const Resume = () => {
         <div className="resume-cards">
           <CardRolling />
           <CardScrum />
+          <CardFigma />
         </div>
       </div>
     </>

@@ -10,6 +10,7 @@ import node from '../skills/node.png'
 import gitLocal from '../skills/gitLocal.png'
 import mongodb from '../skills/mongodb.png'
 import postman from '../skills/postman.png'
+import figma from '../skills/figma.png'
 
 const Skills = () => {
   return (
@@ -27,6 +28,7 @@ const Skills = () => {
         <img className='skills-icon-img' src={gitLocal} alt="gitLocal" />
         <img className='skills-icon-img' src={mongodb} alt="mongodb" />
         <img className='skills-icon-img' src={postman} alt="postman" />
+        <img className='skills-icon-img' src={figma} alt="figma" />
         
         </div>
 

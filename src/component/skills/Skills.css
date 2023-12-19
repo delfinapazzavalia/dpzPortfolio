@@ -1,38 +1,45 @@
-.skills{
+.skills {
     background-color: #22252c;
 
     color: #f6fcfa;
     text-align: center;
     padding-top: 100px;
+    padding-left: 150px;
+    padding-right: 150px;
 
 
 
 }
-.skills-title{
+
+.skills-title {
     z-index: 2;
 }
-.skills-icon{
+
+.skills-icon {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
     z-index: 2;
 }
-.skills-icon-img{
+
+.skills-icon-img {
     width: 100px;
     padding: 10px;
     margin: 10px;
     text-align: center;
     z-index: 2;
+
 }
 
 @media (max-width: 768px) {
 
-    .skills{
-      
-      padding-top: 35%;
-    
-  
-  
-  }
-  }
+    .skills {
+
+        padding-top: 35%;
+        padding-left: 10%;
+        padding-right: 10%;
+
+
+    }
+}
