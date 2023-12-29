@@ -18,9 +18,9 @@ const About = () => {
           seeking new challenges and opportunities for personal and professional
           development.
         </p>
-        <a className="card-link" target="_blank" rel="noopener noreferrer" href="https://drive.google.com/file/d/1Lh-Y06asXF3l-1vI38U4V9aMyGWBM69V/view?usp=drive_link">
-          View my resume
-        </a>
+        <a className="card-link" target="_blank" rel="noopener noreferrer" href="https://drive.google.com/file/d/19BaaWrtiX5o-6_Du95ymxKOMQGhz9MA7/view?usp=drive_link">
+  View my resume
+</a>
 
 
       </div>
