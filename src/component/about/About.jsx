@@ -19,8 +19,8 @@ const About = () => {
           development.
         </p>
         <div className="social-links">
-        <a target="_blank" rel="noopener noreferrer" href="https://drive.google.com/file/d/19BaaWrtiX5o-6_Du95ymxKOMQGhz9MA7/view?usp=drive_link">View my resume</a>
-      </div>
+          <a target="_blank" rel="noopener noreferrer" href="https://drive.google.com/file/d/19BaaWrtiX5o-6_Du95ymxKOMQGhz9MA7/view?usp=drive_link">View my resume</a>
+        </div>
 
 
       </div>
