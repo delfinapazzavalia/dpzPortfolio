@@ -5,7 +5,8 @@
     color: #f6fcfa;
     padding-left: 20%;
     padding-right: 20%;
-
+    position: relative;
+z-index: 10000000;
   }
   
   .title {
@@ -19,6 +20,9 @@
     font-size: 18px;
     line-height: 1.5;
     z-index: 2;
+  }
+  .social-links {
+    z-index: 100000000;
   }
   
   @media (max-width: 600px) {
