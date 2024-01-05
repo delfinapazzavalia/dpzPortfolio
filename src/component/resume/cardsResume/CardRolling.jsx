@@ -1,12 +1,12 @@
 import React from "react";
 import "../cardsResume/CardsResume.css";
-import codigo from "../cardsResume/codigo.png"
+
 
 const CardRolling = () => {
   return (
     <>
       <div className="card">
-        <img src={codigo} alt="Imagen" className="card-image" />
+        
         <div className="card-content">
           <h3 className="card-title">Full Stack Web Developer</h3>
           <p className="card-description">Rolling Code School</p>
