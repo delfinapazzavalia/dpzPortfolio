@@ -20,7 +20,7 @@ const Home = () => {
         <span>FullStack Web Developer</span>
         <br />
         <br />
-        <button onClick={handleClick} class="my-button">CONTACT ME</button>
+        <button onClick={handleClick} class="my-button" style={{ cursor: 'pointer' }}>CONTACT ME</button>
       </div>
       <div className="home-right">
         <img src={perfil} alt="Profile" />

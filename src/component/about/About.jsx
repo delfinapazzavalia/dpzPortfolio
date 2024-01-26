@@ -19,7 +19,7 @@ const About = () => {
           seeking new challenges and opportunities for personal and professional
           development.
         </p>
-        <button onClick={handleClick} class="my-button-contact">VIEW RESUME</button>
+        <button onClick={handleClick} class="my-button-contact" style={{ cursor: 'pointer' }}>VIEW RESUME</button>
       </div>
     </>
   );
