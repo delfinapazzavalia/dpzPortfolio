@@ -19,7 +19,7 @@ const About = () => {
           development.
         </p>
         <div className="social-links">
-          <a target="_blank" rel="noopener noreferrer" href="https://drive.google.com/file/d/19BaaWrtiX5o-6_Du95ymxKOMQGhz9MA7/view?usp=drive_link">View my resume</a>
+          <a target="_blank" rel="noopener noreferrer" href="https://drive.google.com/file/d/1aB_UdTF5mUTmVy6jcy2Aqw3DGWlzpdpM/view?usp=sharing">View my resume</a>
         </div>
 
 
