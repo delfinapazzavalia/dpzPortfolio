@@ -33,7 +33,7 @@ const Contact = () => {
       <form ref={form} onSubmit={sendEmail}>
         <label>Name</label>
         <input type="text" name="user_name" required/>
-        <label>Email</label>
+        <label>eMail</label>
         <input type="email" name="user_email" required/>
         <label>Message</label>
         <textarea name="message" required/>
