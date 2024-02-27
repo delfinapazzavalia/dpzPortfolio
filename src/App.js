@@ -9,6 +9,7 @@ import Projects from "./component/projects/Projects";
 import Resume from "./component/resume/Resume";
 import Skills from "./component/skills/Skills";
 
+
 function App() {
   return (
     <div>
@@ -19,8 +20,9 @@ function App() {
       <Projects />
       <Skills />
       <Contact />
-      
       <Footer />
+
+
       <ParticlesBackground />
     </div>
   );
