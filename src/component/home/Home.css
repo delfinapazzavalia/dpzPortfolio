@@ -26,6 +26,7 @@
     font-weight: bold;
     margin-bottom: 10px;
   }
+
   .home-left .home-welcome {
     font-size: 40px;
     font-weight: bold;
@@ -57,7 +58,6 @@
     color: #f6fcfa;
     border-radius: 10px;
     border-style: hidden;
-  
     transition: background-color 0.3s ease;
     font-family: 'Titillium Web', sans-serif;
     padding: 10px;
@@ -99,6 +99,18 @@
     }
   }
   
-  .home-left h2 {
-    animation: fade-in 1s ease-in;
-  }
+  @keyframes pulse-color {
+    0% {
+        background-color: #05c7ad4f;
+    }
+    50% {
+        background-color: #027d6d45;
+    }
+    100% {
+        background-color: #05c7ad4f;
+    }
+}
+
+.home-left h2 {
+    animation: pulse-color 5s ease-in-out infinite;
+}
