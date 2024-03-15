@@ -37,7 +37,7 @@ const Contact = () => {
         <input type="email" name="user_email" required/>
         <label>Message</label>
         <textarea name="message" required/>
-        <button type="submit" value="Send" style={{ cursor: 'pointer' }}>Submit</button>
+        <button type="submit" value="Send" style={{ cursor: 'pointer' }}>SUBMIT</button>
       </form>
     </div>
   );
