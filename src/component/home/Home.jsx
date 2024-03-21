@@ -17,7 +17,7 @@ const Home = () => {
         <h1 className="home-welcome"><strong> WELCOME! </strong></h1>
         <h2>I'm Delfina Paz Zavalia</h2>
         
-        <span>/FullStack Web Developer/</span>
+        <span>FullStack Web Developer</span>
         <br />
         <br />
         <button onClick={handleClick} class="my-button" style={{ cursor: 'pointer' }}>CONTACT ME</button>
