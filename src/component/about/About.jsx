@@ -17,7 +17,7 @@ const About = () => {
           located in Argentina. A year ago, I delved into this exciting world,
           and since then, I haven't stopped learning and growing. I'm always
           seeking new challenges and opportunities for personal and professional
-          development.
+          development
         </p>
         <button onClick={handleClick} class="my-button-contact" style={{ cursor: 'pointer' }}>VIEW RESUME</button>
       </div>
