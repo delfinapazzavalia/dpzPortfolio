@@ -22,6 +22,7 @@
     font-size: 2em;
     color:#F6FCFA;
     text-decoration: none;
+    filter: drop-shadow(1px 1px 20px #F6FCFA);
   }
   .navbar-left:hover {
     color: #05c7ad;
@@ -32,6 +33,7 @@
     margin-left: 10px;
     color:#F6FCFA;
     text-decoration: none;
+    filter: drop-shadow(1px 1px 20px #F6FCFA);
   }
   
   .navbar-right a:hover {

@@ -11,6 +11,7 @@ import gitLocal from '../skills/gitLocal.png'
 import mongodb from '../skills/mongodb.png'
 import postman from '../skills/postman.png'
 import figma from '../skills/figma.png'
+import tailwind from '../skills/tail.png'
 
 const Skills = () => {
   return (
@@ -29,7 +30,7 @@ const Skills = () => {
         <img className='skills-icon-img' src={mongodb} alt="mongodb" />
         <img className='skills-icon-img' src={postman} alt="postman" />
         <img className='skills-icon-img' src={figma} alt="figma" />
-        
+        <img className='skills-icon-img' src={tailwind} alt="tailwind" />
         </div>
 
     </div>

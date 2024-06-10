@@ -1,6 +1,4 @@
 .projects {
-  background-color: #22252c;
-
   padding-top: 100px;
   padding-bottom: 50px;
   color: #f6fcfa;
@@ -12,7 +10,6 @@
   align-items: center;
   flex-wrap: wrap;
 }
-
 
 @media (max-width: 768px) {
   .card {

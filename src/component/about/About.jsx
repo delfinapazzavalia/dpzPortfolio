@@ -3,7 +3,10 @@ import "../about/About.css";
 
 const About = () => {
   const handleClick = () => {
-    window.open('https://drive.google.com/file/d/1aB_UdTF5mUTmVy6jcy2Aqw3DGWlzpdpM/view?usp=sharing', '_blank');
+    window.open(
+      "https://drive.google.com/file/d/1wguZpjVQ_ucZpQju-x3bykd93WGlWfuH/view?usp=sharing",
+      "_blank"
+    );
   };
   return (
     <>
@@ -14,12 +17,18 @@ const About = () => {
           <strong>
             {"<"}FullStack Web Developer{">"}
           </strong>{" "}
-          located in Argentina. A year ago, I delved into this exciting world,
-          and since then, I haven't stopped learning and growing. I'm always
-          seeking new challenges and opportunities for personal and professional
-          development
+          based in Argentina. I embarked on this exciting journey a year ago and
+          have been continuously learning and growing ever since. I'm passionate
+          about taking on new challenges and exploring opportunities for both
+          personal and professional development.
         </p>
-        <button onClick={handleClick} class="my-button-contact" style={{ cursor: 'pointer' }}>VIEW RESUME</button>
+        <button
+          onClick={handleClick}
+          class="my-button-contact"
+          style={{ cursor: "pointer" }}
+        >
+          VIEW RESUME
+        </button>
       </div>
     </>
   );

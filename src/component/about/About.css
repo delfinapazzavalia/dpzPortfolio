@@ -1,54 +1,54 @@
 .about-me-container {
-    text-align: center;
-    padding: 150px;
-    background-color: #22252c;
-    color: #f6fcfa;
-    padding-left: 20%;
-    padding-right: 20%;
-    position: relative;
-z-index: 10000000;
-  }
-  
+  text-align: center;
+  padding: 150px;
+  color: #f6fcfa;
+  padding-left: 20%;
+  padding-right: 20%;
+  position: relative;
+  z-index: 10000000;
+}
+
+.title {
+  font-weight: bold;
+  margin-bottom: 10px;
+  z-index: 2;
+}
+
+.text {
+  font-size: 18px;
+  line-height: 1.5;
+  z-index: 2;
+}
+
+.my-button-contact {
+  margin-top: 10px;
+  width: fit-content;
+  padding: 8px 20px;
+  align-self: center; /* Centro el botón horizontalmente */
+  border-radius: 10px;
+  border-style: none;
+  background-color: #05c7ad;
+  color: #f6fcfa;
+  z-index: 2;
+  font-family: "Titillium Web", sans-serif;
+  filter: drop-shadow(1px 1px 5px #05c7ad);
+}
+.my-button-contact:hover {
+  background-color: #027d6d;
+  filter: drop-shadow(1px 1px 5px #027d6d);
+}
+
+@media (max-width: 600px) {
   .title {
-
-    font-weight: bold;
-    margin-bottom: 10px;
-    z-index: 2;
+    font-size: 20px;
   }
-  
+
   .text {
-    font-size: 18px;
-    line-height: 1.5;
-    z-index: 2;
+    font-size: 16px;
   }
-
-  .my-button-contact {
-    background-color: #05c7ad;
-    color: #f6fcfa;
-    border-radius: 5px;
-    border-style: hidden;
-    transition: background-color 0.3s ease;
-    font-family: 'Titillium Web', sans-serif;
-    padding: 5px;
-    font-size: 0.5em;
+  .about-me-container {
+    padding-top: 35%;
+    padding-left: 2%;
+    padding-right: 2%;
   }
-  .my-button-contact:hover {
-    background-color: #027d6d;
-  }
-  
-  @media (max-width: 600px) {
-    .title {
-      font-size: 20px;
-    }
-    
-    .text {
-      font-size: 16px;
-    }
-    .about-me-container {
-      padding-top: 35%;
-      padding-left: 2%;
-      padding-right: 2%;
-  
-    }
-  }
-  
+}

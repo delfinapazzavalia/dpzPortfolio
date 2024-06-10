@@ -1,6 +1,7 @@
 
 body {
   font-family: 'Titillium Web', sans-serif;
+  background-color: #22252c;
   
 }
 .App{
@@ -8,4 +9,8 @@ body {
 }
 html {
   scroll-behavior: smooth;
+}
+/* App.css */
+.carousel-container {
+  height: 300px; /* Ajusta la altura según sea necesario */
 }
