@@ -4,7 +4,7 @@ import "../about/About.css";
 const About = () => {
   const handleClick = () => {
     window.open(
-      "https://drive.google.com/file/d/1wguZpjVQ_ucZpQju-x3bykd93WGlWfuH/view?usp=sharing",
+      "https://drive.google.com/file/d/19bAQEelgEzt8643ou_RB28Q2fJ3rj0va/view?usp=sharing",
       "_blank"
     );
   };

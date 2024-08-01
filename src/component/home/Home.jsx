@@ -14,10 +14,10 @@ const Home = () => {
     <div id="Home" className="home">
 
       <div className="home-left">
-        <h1 className="home-welcome"><strong>/WELCOME/</strong></h1>
+        <h1 className="home-welcome"><strong>WELCOME</strong></h1>
         <h2>I'm Delfina Paz Zavalia</h2>
         
-        <span>FullStack Web Developer</span>
+        <h3>FullStack Web Developer</h3>
         <br />
         <br />
         <button onClick={handleClick} class="my-button" style={{ cursor: 'pointer' }}>CONTACT ME</button>
